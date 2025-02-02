@@ -5,26 +5,30 @@
     display: none !important;
 }
 
-/* Show message where the element is hidden */
-.srf-navbar__right-hidden-message {
-    display: block;
-    text-align: center;
+/* Style for your custom text */
+.brand-message {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-weight: bold;
     font-size: 14px;
-    color: white;
-    background-color: #333;
-    padding: 5px;
+    z-index: 1000;
 }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Add the hidden message dynamically
-    var navbarRight = document.querySelector('.srf-navbar__right');
-    if (navbarRight) {
-        var message = document.createElement('div');
-        message.classList.add('srf-navbar__right-hidden-message');
-        message.textContent = 'You are using Rainyclouds.in';
-        navbarRight.parentNode.insertBefore(message, navbarRight);
+    // Create and insert custom message
+    const brandMessage = document.createElement('div');
+    brandMessage.className = 'brand-message';
+    brandMessage.textContent = 'You are using Rainyclouds.in';
+    
+    // Insert where original navbar right was
+    const navbar = document.querySelector('.srf-navbar__right')?.parentElement;
+    if (navbar) {
+        navbar.appendChild(brandMessage);
     }
 });
 </script>
