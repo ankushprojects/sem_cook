@@ -36,12 +36,21 @@
     color: #ffffff; /* White text */
     padding: 10px 15px;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 11px; /* Smaller font size */
+    font-family: Verdana, sans-serif; /* Use Verdana font */
     z-index: 9999; /* Ensure it's on top of other elements */
-    max-width: 300px; /* Limit width for better readability */
-    line-height: 1.5; /* Improve line spacing */
+    max-width: 250px; /* Smaller width for less space */
+    line-height: 1.4; /* Slightly tighter line spacing */
     text-align: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Watermark title */
+.rainyclouds-watermark strong {
+    font-size: 12px; /* Slightly larger for the title */
+    font-weight: bold; /* Bold title */
+    display: block; /* Ensure it's on its own line */
+    margin-bottom: 5px; /* Space below the title */
 }
 
 /* Watermark link */
@@ -83,8 +92,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const watermark = document.createElement('div');
     watermark.className = 'rainyclouds-watermark';
     watermark.innerHTML = `
-        <span style="font-weight: bold; font-size: 1.2em;">YOU ARE HERE FROM RAINYCLOUDS</span> <br>
-        If you are here from any other site, please contact us. We will provide a <strong> one-week free subscription </strong> as a reward.<br>
+        <strong>YOU ARE HERE FROM RAINYCLOUDS</strong>
+        If you are here from any other site, please contact us.
+        We will provide a <strong>one-week free subscription</strong> as a reward.<br>
         Contact: <a href="https://rainyclouds.in" target="_blank">rainyclouds.in</a>
     `;
     document.body.appendChild(watermark);
