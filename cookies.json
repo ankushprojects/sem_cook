@@ -14,7 +14,7 @@
     },
     {
         "domain": ".semrush.com",
-        "expirationDate": 1741076746.193235,
+        "expirationDate": 1741080959.719107,
         "hostOnly": false,
         "httpOnly": false,
         "name": "rbuid",
@@ -52,19 +52,6 @@
         "value": "Paid-User"
     },
     {
-        "domain": ".semrush.com",
-        "expirationDate": 1768718375,
-        "hostOnly": false,
-        "httpOnly": true,
-        "name": "sso_token",
-        "path": "/",
-        "sameSite": null,
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "d85f373cea0389f9069abde7eb1cded5efc1e394317a4dcc6d0369aa65283b1e"
-    },
-    {
         "domain": "www.semrush.com",
         "expirationDate": 1739820604,
         "hostOnly": true,
@@ -79,7 +66,7 @@
     },
     {
         "domain": ".semrush.com",
-        "expirationDate": 1743668745.650844,
+        "expirationDate": 1743672958.987209,
         "hostOnly": false,
         "httpOnly": true,
         "name": "_sm_bot_verify",
@@ -88,11 +75,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "3640875602828774261:ad6a0df8f796ca03678a7ab3ecf5cca48435f83201efd7269c2f052ad0b7d42b32587133e098069dbf00a564e576b5c69be3acafb9c7fe1c44e9e932192321f7bcce9a3d1b98b2987cb55693b6b108e4cf54b2903f706a1caa322b0504068111fcea1989bd0f8040c0c8ae689f4f2a92"
+        "value": "3640875602828774261:ce3940a7a89d5afa3a85203779a2c297fb50751bddd084f1d42c0e3883b304b222880d0d0fb1544b7d11bbe50c76d2a2c0de4faea59e6c1fc934d68e0b3be7a6330e5c5f4ca1f72a9b07cc3f87315570de9f4e9b5bdc4920de9e8f1bc1826d663c8d28efdc4545f0682f32023e12199f"
     },
     {
         "domain": ".semrush.com",
-        "expirationDate": 1738564302,
+        "expirationDate": 1738575355,
         "hostOnly": false,
         "httpOnly": false,
         "name": "PHPSESSID",
@@ -101,11 +88,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "199195f711938582bd76056d23b4aae4"
+        "value": "6f8d43afe3e751ff66bda6e73210848b"
     },
     {
         "domain": ".semrush.com",
-        "expirationDate": 1738564304.21966,
+        "expirationDate": 1738575357.349377,
         "hostOnly": false,
         "httpOnly": true,
         "name": "SSO-JWT",
@@ -114,6 +101,6 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIxOTkxOTVmNzExOTM4NTgyYmQ3NjA1NmQyM2I0YWFlNCIsImlhdCI6MTczODQzNTUwNSwiaXNzIjoic3NvIiwidWlkIjoyNDQ2NjA4NX0.swNofQxHNBcy0SN2W6KGRUDmHygxofYvRo3dZ_P8DSlxqZ8zoOxlNCgr6c7uXdYPAx2clSGAIpSErOfhBeA7Ag"
+        "value": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2ZjhkNDNhZmUzZTc1MWZmNjZiZGE2ZTczMjEwODQ4YiIsImlhdCI6MTczODQ4ODY4NSwiaXNzIjoic3NvIiwidWlkIjoyNDQ2NjE3NH0.EP3fTtocB6fMBt9VvbFLjrpeyMwfE1rhmk9mYF24O_CLTzYheuQGFdaK7QHNQ6tiNF4o1GWFBMKXEqPM2ijpSA"
     }
 ]
