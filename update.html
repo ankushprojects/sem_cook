@@ -26,6 +26,34 @@
 .rainyclouds-message:hover {
     background-color: rgba(200, 200, 200, 0.9); /* Slightly darker background on hover */
 }
+
+/* Watermark styles */
+.rainyclouds-watermark {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: #ffffff; /* White text */
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+    z-index: 9999; /* Ensure it's on top of other elements */
+    max-width: 300px; /* Limit width for better readability */
+    line-height: 1.5; /* Improve line spacing */
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Watermark link */
+.rainyclouds-watermark a {
+    color: #4CAF50; /* Green color for the link */
+    text-decoration: underline; /* Underline the link */
+    font-weight: bold;
+}
+
+.rainyclouds-watermark a:hover {
+    color: #45a049; /* Darker green on hover */
+}
 </style>
 
 <script>
@@ -50,6 +78,17 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         console.error('Could not find .srf-navbar__right element');
     }
+
+    // Add watermark to the bottom-right corner
+    const watermark = document.createElement('div');
+    watermark.className = 'rainyclouds-watermark';
+    watermark.innerHTML = `
+        YOU ARE HERE FROM RAINYCLOUDS<br>
+        If you are here from any other site, please contact us.<br>
+        We will provide a <strong>one-week free subscription</strong> as a reward.<br>
+        Contact: <a href="https://rainyclouds.in" target="_blank">rainyclouds.in</a>
+    `;
+    document.body.appendChild(watermark);
 });
 </script>
 </html>
