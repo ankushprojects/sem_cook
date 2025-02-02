@@ -18,6 +18,13 @@
     background-color: rgba(255, 255, 255, 0.9); /* Add background for visibility */
     padding: 5px 10px;
     border-radius: 4px;
+    cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect */
+.rainyclouds-message:hover {
+    background-color: rgba(200, 200, 200, 0.9); /* Slightly darker background on hover */
 }
 </style>
 
@@ -32,9 +39,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const parentElement = navbarRight.parentElement;
 
         // Create and insert custom message
-        const brandMessage = document.createElement('div');
+        const brandMessage = document.createElement('a'); // Use <a> tag for clickable link
         brandMessage.className = 'rainyclouds-message';
         brandMessage.textContent = 'You are using Rainyclouds.in';
+        brandMessage.href = 'https://rainyclouds.in'; // Set the redirect URL
+        brandMessage.target = '_blank'; // Open in a new tab
 
         // Insert the message into the parent container
         parentElement.appendChild(brandMessage);
