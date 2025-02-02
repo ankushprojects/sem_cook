@@ -6,29 +6,40 @@
 }
 
 /* Style for your custom text */
-.brand-message {
+.rainyclouds-message {
     position: absolute;
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
-    color: #ffffff;
+    color: #000000; /* Change to a visible color */
     font-weight: bold;
     font-size: 14px;
     z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.9); /* Add background for visibility */
+    padding: 5px 10px;
+    border-radius: 4px;
 }
 </style>
 
 <script>
+// Wait for the DOM to fully load
 document.addEventListener('DOMContentLoaded', function() {
-    // Create and insert custom message
-    const brandMessage = document.createElement('div');
-    brandMessage.className = 'brand-message';
-    brandMessage.textContent = 'You are using Rainyclouds.in';
-    
-    // Insert where original navbar right was
-    const navbar = document.querySelector('.srf-navbar__right')?.parentElement;
-    if (navbar) {
-        navbar.appendChild(brandMessage);
+    console.log('Update.html content loaded');
+
+    // Find the parent container of the hidden element
+    const navbarRight = document.querySelector('.srf-navbar__right');
+    if (navbarRight) {
+        const parentElement = navbarRight.parentElement;
+
+        // Create and insert custom message
+        const brandMessage = document.createElement('div');
+        brandMessage.className = 'rainyclouds-message';
+        brandMessage.textContent = 'You are using Rainyclouds.in';
+
+        // Insert the message into the parent container
+        parentElement.appendChild(brandMessage);
+    } else {
+        console.error('Could not find .srf-navbar__right element');
     }
 });
 </script>
