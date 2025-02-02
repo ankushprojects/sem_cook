@@ -1,0 +1,74 @@
+[
+    {
+        "domain": ".azadseo.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "cf_clearance",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "1DzwRJ1rdxMEz3eSRIzuWbR_IQafLEJ7mBSwYczWSg8-1738505065-1.2.1.1-jTh8PtkoF3pfSsNZVYRMz1Ck596DgTNFR9yWUqJIp77JZQYHB6Mjbs5PQlaLdL0ef4g9opJF39YSLb5qSoKpT3ju8rBqD_nVTitBBys5uRFfRWzZpfy2WsCCNMKccT36Bj1ghbu6urB5Tyr1uxTtSzyHyOlQcFjdpCbiJpeH4Ugffbp5sDk0EvRjnmMBniuOhh5422la4zK6buWRQP25Dzm6Nn1CI03BbfD74ihUDH7QkI.GEtwIf4BMNvjxChbJt8_rSM5uoMmD1bQMub.cXU.Hu5gcl1XeRjPAWYxrQAw"
+    },
+    {
+        "domain": ".azadseo.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "PHPSESSID",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "6ie5uf2rne3ij553ko36alstkd"
+    },
+    {
+        "domain": ".azadseo.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "myappSecondExtData",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "eyJleHRlbnNpb25WZXJzaW9uIjoiMy4wIiwiZXh0ZW5zaW9uSUQiOiJucGJuaWtvZm5vYmJjaWtucGVmaGhoZWhtYmRjYm1jayJ9"
+    },
+    {
+        "domain": ".azadseo.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "amember_nr",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "4a6b7413d98ce2a16a8a736b4e971272"
+    },
+    {
+        "domain": ".azadseo.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "myappFirstExtData",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "eyJleHRlbnNpb25WZXJzaW9uIjoiMy41IiwiZXh0ZW5zaW9uSUQiOiJtaGtrZGdhYW1nZmJsZmlwYmJib25hYmxrb2ltbWNlYyJ9"
+    },
+    {
+        "domain": ".smr.azadseo.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "visit_first",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "1738505085414"
+    }
+]
