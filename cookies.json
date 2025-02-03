@@ -1,14 +1,14 @@
 [
   {
     "domain": "www.semrush.com",
-    "expirationDate": 1738683340.537798,
+    "expirationDate": 1738685919.615819,
     "httpOnly": true,
     "name": "GCLB",
     "path": "/",
     "sameSite": "unspecified",
     "secure": false,
     "storeId": "0",
-    "value": "CKG02eqsoqDOZRAD",
+    "value": "CM6H_6uAmMiYjQEQAw",
     "url": "https://www.semrush.com/"
   },
   {
@@ -25,7 +25,7 @@
   },
   {
     "domain": ".semrush.com",
-    "expirationDate": 1738685748,
+    "expirationDate": 1738685931,
     "httpOnly": false,
     "name": "PHPSESSID",
     "path": "/",
@@ -37,14 +37,14 @@
   },
   {
     "domain": ".semrush.com",
-    "expirationDate": 1738685746.279783,
+    "expirationDate": 1738685929.218373,
     "httpOnly": true,
     "name": "SSO-JWT",
     "path": "/",
     "sameSite": "unspecified",
     "secure": true,
     "storeId": "0",
-    "value": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiMTMyZTVmNjcwZDQ0NmI1ODhiYWNkYjI2ZTRiNGM5NCIsImlhdCI6MTczODU5NTU1OSwiaXNzIjoic3NvIiwidWlkIjoyNDQ3NTA5OH0.FZwBeSbzKg5_4FgQmEpsXwXULAzWiYnVZwJnWn70xJoicbUjF88zd7OwrYGFA-LVhINZ9686FjHqeJs6x-R2uQ",
+    "value": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiMTMyZTVmNjcwZDQ0NmI1ODhiYWNkYjI2ZTRiNGM5NCIsImlhdCI6MTczODU5NTU1OSwiaXNzIjoic3NvIiwidWlkIjoyNDQ3NTA5OH0.u_wRhUGlH4Rk-6bO4hzrIMN51U02P9ZW9hkQPGf1n8MJGM8OHzP0z-L-CrzA9lRMcJ6MrORoT6M-U6Z2QBlOrw",
     "url": "https://www.semrush.com/"
   },
   {
@@ -61,7 +61,7 @@
   },
   {
     "domain": ".semrush.com",
-    "expirationDate": 1738599492,
+    "expirationDate": 1738599580,
     "httpOnly": false,
     "name": "_dc_gtm_UA-6197637-22",
     "path": "/",
@@ -73,7 +73,7 @@
   },
   {
     "domain": ".semrush.com",
-    "expirationDate": 1746375445,
+    "expirationDate": 1746375534,
     "httpOnly": false,
     "name": "_fbp",
     "path": "/",
@@ -85,38 +85,38 @@
   },
   {
     "domain": ".semrush.com",
-    "expirationDate": 1770135445,
+    "expirationDate": 1770135536,
     "httpOnly": false,
     "name": "_ga",
     "path": "/",
     "sameSite": "unspecified",
     "secure": false,
     "storeId": "0",
-    "value": "GA1.2.1433780124.1738596942",
+    "value": "GA1.2.2025276624.1738599521",
     "url": "https://www.semrush.com/"
   },
   {
     "domain": ".semrush.com",
-    "expirationDate": 1770135447,
+    "expirationDate": 1770135536,
     "httpOnly": false,
     "name": "_ga_BPNLXP3JQG",
     "path": "/",
     "sameSite": "unspecified",
     "secure": false,
     "storeId": "0",
-    "value": "GS1.1.1738593034.6.1.1738599447.0.0.1701328997",
+    "value": "GS1.1.1738593034.6.1.1738599536.0.0.1701328997",
     "url": "https://www.semrush.com/"
   },
   {
     "domain": ".semrush.com",
-    "expirationDate": 1770135447,
+    "expirationDate": 1770135536,
     "httpOnly": false,
     "name": "_ga_HYWKMHR981",
     "path": "/",
     "sameSite": "unspecified",
     "secure": false,
     "storeId": "0",
-    "value": "GS1.1.1738593034.6.1.1738599447.49.0.0",
+    "value": "GS1.1.1738593034.6.1.1738599536.44.0.0",
     "url": "https://www.semrush.com/"
   },
   {
@@ -133,19 +133,19 @@
   },
   {
     "domain": ".semrush.com",
-    "expirationDate": 1738685845,
+    "expirationDate": 1738685936,
     "httpOnly": false,
     "name": "_gid",
     "path": "/",
     "sameSite": "unspecified",
     "secure": false,
     "storeId": "0",
-    "value": "GA1.2.1252542681.1738596942",
+    "value": "GA1.2.2058888900.1738599521",
     "url": "https://www.semrush.com/"
   },
   {
     "domain": ".semrush.com",
-    "expirationDate": 1770135445,
+    "expirationDate": 1770135534,
     "httpOnly": false,
     "name": "_mkto_trk",
     "path": "/",
@@ -157,26 +157,26 @@
   },
   {
     "domain": ".semrush.com",
-    "expirationDate": 1743697824.021928,
+    "expirationDate": 1743783521.41074,
     "httpOnly": true,
     "name": "_sm_bot",
     "path": "/",
-    "sameSite": "unspecified",
+    "sameSite": "no_restriction",
     "secure": true,
     "storeId": "0",
-    "value": "a38898492e03160de7e8509decb7ee2359d12fe48b688b9567ab311a0bb9a311",
+    "value": "0cdda5e0085cc73bd1d3832aa29c2e0fc00f2440b1107dcdab0d248d32d86278",
     "url": "https://www.semrush.com/"
   },
   {
     "domain": ".semrush.com",
-    "expirationDate": 1743783446.017016,
+    "expirationDate": 1743783535.253076,
     "httpOnly": true,
     "name": "_sm_bot_verify",
     "path": "/",
     "sameSite": "no_restriction",
     "secure": true,
     "storeId": "0",
-    "value": "393428711701500095:d810dd169ccc05fbb971165d8432427b93c84ea5465bb9de60d5adfc835a1b0a4d33d9999e08aa09c250c111d9201263e9d53ac24f51bc7459957526a7746e1204309b24067f40ed447de425fe1c0d57688c3a65052fd8b9639ed45f8ed618ddeaf73f318a2dd2b3e6d705fbceb39d",
+    "value": "393428711701500095:1fedcb8549e4bd2907efac0889d53baa72c7772bacfd142621949d6f2ba99fb0702ae003e26c956c8be826a57b135761a7dbdb25cfa6ee50177beec97bb9453f4510607a99475549e619f50fe9ce028f413d229077ff8bea0fc408da6ec476815b043b7232effd6091010101d94db1",
     "url": "https://www.semrush.com/"
   },
   {
@@ -205,26 +205,26 @@
   },
   {
     "domain": ".semrush.com",
-    "expirationDate": 1738685845,
+    "expirationDate": 1738685934,
     "httpOnly": false,
     "name": "_uetsid",
     "path": "/",
     "sameSite": "unspecified",
     "secure": false,
     "storeId": "0",
-    "value": "87122260e24411ef9f2217b19ffe7103|1jsopg6|2|ft4|0|1860",
+    "value": "88119c60e24a11ef9a10c5ada237d1ce|70gsmn|2|ft4|0|1860",
     "url": "https://www.semrush.com/"
   },
   {
     "domain": ".semrush.com",
-    "expirationDate": 1772295446,
+    "expirationDate": 1772295536,
     "httpOnly": false,
     "name": "_uetvid",
     "path": "/",
     "sameSite": "unspecified",
     "secure": false,
     "storeId": "0",
-    "value": "87125230e24411ef987155c3f0a08691|1y8n7dv|1738599446398|10|1|bat.bing.com/p/insights/c/i",
+    "value": "8811bcc0e24a11efb1017bf49819e978|syengr|1738599536290|3|1|bat.bing.com/p/insights/c/i",
     "url": "https://www.semrush.com/"
   },
   {
@@ -289,7 +289,7 @@
   },
   {
     "domain": ".semrush.com",
-    "expirationDate": 1770135444,
+    "expirationDate": 1770135534,
     "httpOnly": false,
     "name": "cookiehub",
     "path": "/",
@@ -325,7 +325,19 @@
   },
   {
     "domain": ".semrush.com",
-    "expirationDate": 1741188613,
+    "expirationDate": 1741018720.055186,
+    "httpOnly": false,
+    "name": "ga_exp_459a0dbed1b1493b955e0e28",
+    "path": "/",
+    "sameSite": "lax",
+    "secure": false,
+    "storeId": "0",
+    "value": "1",
+    "url": "https://www.semrush.com/"
+  },
+  {
+    "domain": ".semrush.com",
+    "expirationDate": 1741191520,
     "httpOnly": false,
     "name": "ga_exp_c41234be21bd4796bbf8e763",
     "path": "/",
@@ -361,26 +373,14 @@
   },
   {
     "domain": "www.semrush.com",
-    "expirationDate": 1738601245.013669,
+    "expirationDate": 1738601334.776827,
     "httpOnly": false,
     "name": "lux_uid",
     "path": "/",
     "sameSite": "lax",
     "secure": false,
     "storeId": "0",
-    "value": "173859694206754786",
-    "url": "https://www.semrush.com/"
-  },
-  {
-    "domain": ".semrush.com",
-    "expirationDate": 1741191446.434107,
-    "httpOnly": false,
-    "name": "rbuid",
-    "path": "/",
-    "sameSite": "no_restriction",
-    "secure": true,
-    "storeId": "0",
-    "value": "rbos-78a5ab8e-4fa2-4070-b5da-e2924d40ed27",
+    "value": "173859952081539289",
     "url": "https://www.semrush.com/"
   },
   {
@@ -405,18 +405,6 @@
     "secure": false,
     "storeId": "0",
     "value": "\"\"",
-    "url": "https://www.semrush.com/"
-  },
-  {
-    "domain": ".semrush.com",
-    "expirationDate": 1770049934.634036,
-    "httpOnly": true,
-    "name": "sso_token",
-    "path": "/",
-    "sameSite": "unspecified",
-    "secure": true,
-    "storeId": "0",
-    "value": "59b34670941028aa180bebc1efb04e668c300f6e87b4ec3d1f5744e5385d89c8",
     "url": "https://www.semrush.com/"
   },
   {
